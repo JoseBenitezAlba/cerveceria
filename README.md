@@ -15,7 +15,7 @@ Crear una web sencilla, visual y funcional para mostrar distintos estilos de cer
 
 ## 🧑‍💻 Autor
 
-**Jose Benítez Alba**
+**Jose Manuel Benítez Alba**
 
 ---
 **Sitio web:** [Cervecería Online](https://josebenitezalba.github.io/cerveceria/)
