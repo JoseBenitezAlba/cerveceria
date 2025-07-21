@@ -1,0 +1,116 @@
+*{
+    background-color: khaki; 
+    margin: 0;
+    padding: 0;
+}
+body, header, main, footer {
+  background-color: khaki;
+}
+.logo-header {
+  display: flex;
+}
+.logo-header h1 {
+ color: rgb(146, 115, 57);
+ margin-left: 10px;
+ text-align: center;
+ font-size: 3.5em;
+}
+nav ul{
+    list-style-type: none; 
+    text-align: center;
+}
+nav li{
+    display: inline;
+    
+   
+}
+nav li a {
+    border: 3px solid #8B4513;
+    color: #fff8dc;
+    background-color: rgb(116, 134, 117);
+    margin-right: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav li a:hover {
+    color: khaki;
+    background-color: #5a5a3c;
+}
+#Tablas{
+display: flex;
+}
+table {
+  border-collapse: separate; /* importante: permite usar border-spacing */
+
+}
+#tabla1, #tabla2 {
+  margin-right: 500px;
+}
+#Entrantes, #carnes, #bebidas{
+  text-align: center;
+   font-family: "Pacifico";
+   font-size: 40px;
+   border-collapse:separate;
+   border-spacing: 5px;
+}
+#completa, #media{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+#media{
+  
+ vertical-align: middle !important;
+}
+.precio{
+  text-align: right;
+}
+
+td {
+    padding: 10px;
+    color: #050505;
+    font-size: 1.5em;
+}
+.contacto{
+  display: flex;
+  justify-content: space-around;
+}
+#form{
+    background-color: white !important;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label{
+    display: block;
+    background-color: white !important;
+    text-align: center;
+}
+input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white !important;
+  
+
+}
+button{
+  margin-left: 40%;
+   text-align: center;
+   padding: 10px 20px;
+   font-size: 1.1em;
+   cursor: pointer;
+   background-color: #007bff;
+   color: whitesmoke;
+   border-radius: 15px;
+   align-items: center;
+}
+button:hover{
+    background-color: #0a3c6e;
+}
