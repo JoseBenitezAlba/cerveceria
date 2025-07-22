@@ -114,3 +114,42 @@ button{
 button:hover{
     background-color: #0a3c6e;
 }
+@media (max-width: 768px) {
+
+  .logo-header h1 {
+    font-size: 2em;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #Tablas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #tabla1, #tabla2 {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
+  td {
+    font-size: 1.2em;
+  }
+
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    margin-left: 0;
+    display: block;
+    margin: 0 auto;
+  }
+}
